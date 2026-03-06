@@ -167,7 +167,7 @@ const WhyChooseUs = () => (
           { icon: <Heart className="w-8 h-8" />, title: "Bespoke World Holidays", desc: "Tailor-made luxury and budget-friendly global vacation packages crafted to your specific life rhythm." },
           { icon: <Clock className="w-8 h-8" />, title: "Goa-Based Experts", desc: "Locally accessible in Goa for all your travel needs, providing face-to-face consultation and document pickup." },
           { icon: <Award className="w-8 h-8" />, title: "Recognized Authority", desc: "Years of recognized outbound tours and documentation expertise verified by major international embassies." }
-        ]].map((item, i) => (
+        ].map((item, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, y: 20 }}
