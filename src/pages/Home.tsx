@@ -225,7 +225,6 @@ const ServicesPreview = () => (
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       {[
-        [
         {
           title: "International Visas",
           slug: "service-1",
